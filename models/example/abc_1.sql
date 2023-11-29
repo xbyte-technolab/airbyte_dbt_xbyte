@@ -1,6 +1,4 @@
-{{ config (
-    materialized="table"
-)}}
+    create table as
     sys.`master_item__dbt_tmp`
   as (
 
